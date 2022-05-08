@@ -14,7 +14,7 @@ function App() {
   const [percentage, setPercentage] = useState(0);
  
 
-  /* Effect to get percentage */
+  /* Effect to get quiz percentage */
   useEffect(() => {
    if(userAnsSelections.length > 0) {
     const getCorrectAns = userAnsSelections.filter((item) => item === 1);
